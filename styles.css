@@ -26,6 +26,7 @@ body{
 .titulo-secundario{
     font-size: 42px;
     margin: 18px 0;
+    text-align: center;
 }
 .subtitulo{
     font-size: 24px;
@@ -120,4 +121,39 @@ main{
     margin-top: 48px;
     width: 100%;
     height: 120px;
+}
+
+@media (max-width: 794px){
+    .titulo-principal{
+        font-size: 40px;
+        margin: 0 8px;
+    }
+    .subtitulo{
+        font-size: 20px;
+    }
+    .sobre-texto__titulo{
+        font-size: 24px;
+    }
+    .sobre-texto__subtitulo{
+        font-size: 14px;
+        margin: 2px 0;
+    }
+    .sobre-projeto-container{
+        flex-wrap: wrap;
+        text-align: center !important;
+        height: auto;
+    }
+    .sobre-projeto-container img{
+        display: none;
+    }
+    .sobre-texto__titulo{
+        text-align: center !important;
+    }
+    .titulo-secundario{
+        font-size: 32px;
+    }
+    .rodape{
+        font-size: 14px;
+        padding: 4px;
+    }
 }
